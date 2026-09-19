@@ -1,0 +1,23 @@
+{
+  "name": "NaCl",
+  "space_group": 225,
+  "setting": 523,
+  "cell": [
+    5.64,
+    5.64,
+    5.64,
+    90,
+    90,
+    90
+  ],
+  "sites": [
+    {
+      "element": "Na",
+      "wyckoff": "4a"
+    },
+    {
+      "element": "Cl",
+      "wyckoff": "4b"
+    }
+  ]
+}

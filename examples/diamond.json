@@ -1,0 +1,19 @@
+{
+  "name": "Diamond",
+  "space_group": 227,
+  "setting": 525,
+  "cell": [
+    3.567,
+    3.567,
+    3.567,
+    90,
+    90,
+    90
+  ],
+  "sites": [
+    {
+      "element": "C",
+      "wyckoff": "8a"
+    }
+  ]
+}

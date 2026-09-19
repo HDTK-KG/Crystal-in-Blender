@@ -1,0 +1,15 @@
+PRESETS = {
+    'NACL': {'name': 'NaCl', 'space_group': 225, 'setting': 523,
+             'cell': [5.64, 5.64, 5.64, 90, 90, 90],
+             'sites': [{'element': 'Na', 'wyckoff': '4a'}, {'element': 'Cl', 'wyckoff': '4b'}]},
+    'DIAMOND': {'name': 'Diamond', 'space_group': 227, 'setting': 525,
+                'cell': [3.567, 3.567, 3.567, 90, 90, 90],
+                'sites': [{'element': 'C', 'wyckoff': '8a'}]},
+    'BCC': {'name': 'Iron BCC', 'space_group': 229, 'setting': 529,
+            'cell': [2.866, 2.866, 2.866, 90, 90, 90],
+            'sites': [{'element': 'Fe', 'wyckoff': '2a'}]},
+    'RUTILE': {'name': 'Rutile TiO2', 'space_group': 136,
+               'cell': [4.594, 4.594, 2.959, 90, 90, 90],
+               'sites': [{'element': 'Ti', 'wyckoff': '2a'},
+                         {'element': 'O', 'wyckoff': '4f', 'xyz': [.305, 0, 0]}]},
+}
